@@ -1,0 +1,211 @@
+/*
+  Navbar
+  ------
+*/
+
+.navbar-dark {
+  background-color: black;
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: inherit;
+}
+
+.space {
+  height: 50px;
+  background-color: black;
+}
+
+
+
+/*
+  Section - Home
+  --------------
+*/
+
+/* Home BG Static (default) */
+
+#home {
+  background: url("../images/bg-home-1.jpg");
+}
+
+
+/* Home BG Parallax */
+
+#home-bg-parallax > .bg-parallax {
+  background: url("../images/bg-parallax.jpg");
+}
+
+
+/* Home BG Slideshow */
+
+#home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
+  background: url("../images/bg-home-1.jpg");
+}
+#home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
+  background: url("../images/bg-home-2.jpg");
+}
+#home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
+  background: url("../images/bg-home-3.jpg");
+}
+
+
+/* Home BG Slider */
+
+#home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
+  background: url("../images/bg-home-1.jpg");
+}
+#home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
+  background: url("../images/bg-home-2.jpg");
+}
+#home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(3) {
+  background: url("../images/bg-home-3.jpg");
+}
+#home-bg-slideshow .display-table-cell,
+#home-bg-slider .display-table-cell {
+  position: relative;
+  z-index: 20;
+}
+
+/*
+  Intro
+  -----
+*/
+
+#intro .features-box .bg-cover {
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  height: 192px;
+}
+#intro .features-box:nth-child(1) .bg-cover {
+  background-image: url("../images/intro-1.jpg");
+}
+#intro .features-box:nth-child(2) .bg-cover {
+  background-image: url("../images/intro-2.jpg");
+}
+#intro .features-box:nth-child(3) .bg-cover {
+  background-image: url("../images/intro-3.jpg");
+}
+
+/*
+  Section - Venue
+  ---------------
+*/
+
+#venue {
+  background-image: url("../images/bg-venue.jpg");
+  background-position: center bottom !important;
+}
+
+/*
+  Event bottom banner
+  -------------------
+*/
+#event-banner {
+  background-image: url("https://toptal.com/designers/subtlepatterns/patterns/whitediamond.png");
+}
+#event-banner .row {
+  display: flex;
+  flex-direction: column;
+}
+#event-banner .row #banner-registration {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  #event-banner .row {
+    flex-direction: row;
+  }
+  #event-banner .row #banner-registration {
+    margin: auto;
+  }
+}
+
+/*
+  Cards
+*/
+.cards{
+  padding-top: 5rem;
+}
+.cards .member-box {
+  padding-bottom: 4rem;
+}
+
+/*
+  Footer
+  ------
+*/
+
+.footer {
+  padding: 50px 0 32px;
+}
+.footer-logo {
+  padding-bottom: 25px;
+}
+.footer-logo img {
+  width: 120px;
+}
+.footer .disclaimer {
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+.footer-social {
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .footer-social {
+    padding-bottom: 50px;
+  }
+}
+.footer-social ul > li {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .footer-social ul > li {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.footer-copyright {
+  padding-top: 32px;
+}
+
+
+
+/*
+  Responsive images
+  -----------------
+*/
+
+.img-wrapper {
+  position: relative;
+  padding-bottom: 133.33%;    /* 4:3 aspect ratio */
+  overflow: hidden;
+  width: 100%;
+}
+.img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+/*
+  Features box
+  ------------
+*/
+
+@media (min-width: 768px) {
+  .row .features-box {
+    margin-bottom: 15px;
+  }
+  .row .features-box:last-child {
+    margin-bottom: 0;
+  }
+}
