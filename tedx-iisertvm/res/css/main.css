@@ -1555,6 +1555,12 @@ h6 {
   width: 100%!important;
   border-radius: 10px;
 }
+#venue.width-100{
+  border-radius: 0;
+}
+#home-bg-slideshow.width-100{
+  border-radius: 0;
+}
 
 .width-auto {
   width: auto!important
