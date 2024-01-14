@@ -7,6 +7,10 @@
   background-color: black;
 }
 
+.under {
+  border-bottom: solid 2px white!important;
+}
+
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: inherit;

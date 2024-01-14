@@ -1916,6 +1916,10 @@ h6 {
   padding: 10px 0 10px 30px
 }
 
+.navbar .navbar-nav>li:last-child{
+  padding-left: 15px;
+}
+
 .navbar .navbar-nav>li.active>a:focus,
 .navbar .navbar-nav>li.active>a:hover {
   background-color: inherit;
@@ -4767,6 +4771,9 @@ h2.theme {
   .navbar .navbar-nav>li {
     line-height: 80px!important;
     padding: 0 15px
+  }
+  .navbar .navbar-nav>li:last-child {
+    margin-left: 10px
   }
   .navbar.shrink .container {
     height: 60px
